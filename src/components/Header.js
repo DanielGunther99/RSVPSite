@@ -14,7 +14,7 @@ function Header() {
   const inactiveClassLg =
     "lg:inline-block lg:hover:border-[#D3AF5E] lg:rounded-full lg:py-4 lg:px-4 lg:text-4xl lg:font-medium lg:text-center lg:border-transparent lg:border-2 lg:text-gray-400 lg:hover:text-[#D3AF5E] ";
   const inactiveClass =
-    "inline-block hover:border-gray-300 rounded-t-lg py-4 px-4 text-3xl font-medium text-center border-transparent border-b-2 text-gray-400 hover:text-gray-300 ";
+    "inline-block hover:border-[#D3AF5E] rounded-full py-4 px-4 text-3xl font-medium text-center border-transparent border-2 text-gray-400 hover:text-gray-300 ";
   const daysUntil = getDaysUntil("2024-10-05"); // Format: YYYY-MM-DD
 
   function getDaysUntil(dateString) {
