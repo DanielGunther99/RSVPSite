@@ -7,10 +7,14 @@ function Header() {
   const navigate = useNavigate();
   const location = useLocation();
 
+  const activeClassLg =
+    "lg:inline-block lg:text-[#D3AF5E] lg:rounded-full lg:py-4 lg:px-4 lg:text-4xl lg:font-medium lg:text-center lg:border-transparent lg:border-b-2 lg:active lg:border-[#D3AF5E] ";
   const activeClass =
-    "inline-block text-[#D3AF5E] rounded-t-lg py-4 px-4 text-4xl font-medium text-center border-transparent border-b-2 active border-[#D3AF5E]";
+    "inline-block text-[#D3AF5E] rounded-full py-4 px-4 text-3xl font-medium text-center border-[#D3AF5E] border-2 active border-[#D3AF5E] ";
+  const inactiveClassLg =
+    "lg:inline-block lg:hover:border-[#D3AF5E] lg:rounded-full lg:py-4 lg:px-4 lg:text-4xl lg:font-medium lg:text-center lg:border-transparent lg:border-2 lg:text-gray-400 lg:hover:text-[#D3AF5E] ";
   const inactiveClass =
-    "inline-block text-gray-500 hover:text-gray-600 hover:border-gray-300 rounded-t-lg py-4 px-4 text-4xl font-medium text-center border-transparent border-b-2 dark:text-gray-400 dark:hover:text-gray-300";
+    "inline-block hover:border-gray-300 rounded-t-lg py-4 px-4 text-3xl font-medium text-center border-transparent border-b-2 text-gray-400 hover:text-gray-300 ";
   const daysUntil = getDaysUntil("2024-10-05"); // Format: YYYY-MM-DD
 
   function getDaysUntil(dateString) {
@@ -42,7 +46,7 @@ function Header() {
       <div class="sm:w-full lg:w-max mx-auto">
         <div class="border-gray-200 dark:border-gray-700 mb-4">
           <ul
-            class="flex flex-wrap -mb-px"
+            class="flex flex-wrap m-5 justify-center"
             id="myTab"
             data-tabs-toggle="#myTabContent"
             role="tablist"
@@ -51,8 +55,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.HOME
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="profile-tab"
                 data-tabs-target="#profile"
@@ -69,8 +73,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.OURSTORY
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="dashboard-tab"
                 data-tabs-target="#dashboard"
@@ -105,8 +109,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.WEDDINGPARTY
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="contacts-tab"
                 data-tabs-target="#contacts"
@@ -122,7 +126,9 @@ function Header() {
             <li role="presentation">
               <button
                 class={
-                  location.pathname === ROUTES.QA ? activeClass : inactiveClass
+                  location.pathname === ROUTES.QA
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="contacts-tab"
                 data-tabs-target="#contacts"
@@ -139,8 +145,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.TRAVELANDLODGING
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="contacts-tab"
                 data-tabs-target="#contacts"
@@ -157,8 +163,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.REGISTRY
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="contacts-tab"
                 data-tabs-target="#contacts"
@@ -175,8 +181,8 @@ function Header() {
               <button
                 class={
                   location.pathname === ROUTES.RSVP
-                    ? activeClass
-                    : inactiveClass
+                    ? activeClass + activeClassLg
+                    : inactiveClass + inactiveClassLg
                 }
                 id="contacts-tab"
                 data-tabs-target="#contacts"

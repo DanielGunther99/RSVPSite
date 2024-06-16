@@ -15,7 +15,7 @@ function OurStory() {
     <>
       <Header />
       <div class="container mx-auto p-4 justify-center w-full lg:w-1/3 ">
-        <ol class="relative border-s border-gray-200 dark:border-[#D3AF5E] pr-4">
+        <ol class="relative border-s border-[#D3AF5E] pr-4">
           {/* September 2013 - Clara and Dan Meet */}
           <li class="mb-10 ms-4">
             <div class="absolute w-3 h-3 bg-[#D3AF5E] rounded-full mt-6 -start-1.5 border border-[#D3AF5E]"></div>
