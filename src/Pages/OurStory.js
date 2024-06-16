@@ -72,7 +72,7 @@ function OurStory() {
               src={LakePlacid}
               alt=""
             />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               First Family Trip Together
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
@@ -88,13 +88,10 @@ function OurStory() {
               June 2017
             </time>
             <img class="h-auto max-w-full rounded-xl m-4" src={Prom} alt="" />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               Attending Prom
             </h3>
-            <p
-              id="textbox"
-              class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400 pl-5"
-            >
+            <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
               On their final band trip, while in Niagara Falls, Clara Prom-posed
               to Daniel with a sign reading "Will you Fall-ow me to Prom?". Of
               course Daniel agreed and was very excited at the opportunity to
@@ -109,7 +106,7 @@ function OurStory() {
               February 2018
             </time>
             <img class="h-auto max-w-full rounded-xl m-4" src={Quebec} alt="" />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               First Trip As A Couple
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
@@ -128,12 +125,12 @@ function OurStory() {
               October 2021
             </time>
             <img class="h-auto max-w-full rounded-xl m-4" src={Lenny} alt="" />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               A New Addition to the Family
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
               On October 11th, after a spur of the moment decision, Daniel and
-              Clara met their future son and couldn't resist his charm.
+              Clara met their future son, Lenny, and couldn't resist his charm.
             </p>
           </li>
 
@@ -144,12 +141,13 @@ function OurStory() {
               May 2022
             </time>
             <img class="h-auto max-w-full rounded-xl m-4" src={House} alt="" />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               Bought Our First Home
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
-              Dan harrassed Clara in class and she went home crying like a big
-              baby.
+              Clara and Daniel spent the first few months of 2022 looking for a
+              home and eventually found a fixer upper with a beautiful location
+              and good windows for Lenny to look out of.
             </p>
           </li>
 
@@ -160,7 +158,7 @@ function OurStory() {
               September 2023
             </time>
             <img class="h-auto max-w-full rounded-xl m-4" src={Engage} alt="" />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               We Are Engaged!
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
@@ -180,12 +178,12 @@ function OurStory() {
               src={TenYear}
               alt=""
             />
-            <h3 class="text-3xl font-semibold text-gray-900 dark:text-white pl-5">
+            <h3 class="text-3xl font-semibold text-white pl-5">
               Celebrating 10 Years!
             </h3>
             <p id="textbox" class="mb-4 text-xl font-normal text-gray-400 pl-5">
-              After a romantic dinner at Cabotto's, the local Italian
-              restaurant, Daniel asked Clara to marry him. She said yes!
+              After 10 years of creating amazing memories together, Clara and
+              Daniel have picked a date for their wedding. See you all there!
             </p>
           </li>
         </ol>
