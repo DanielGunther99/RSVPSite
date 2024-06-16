@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Tangerine", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.mask {
+  -webkit-mask-image: url("https://as1.ftcdn.net/v2/jpg/01/42/30/96/1000_F_142309603_Gd1gk6PYoXThgZUN5oRFZDGsD5Aid8oj.jpg");
+  mask-image: url("https://as1.ftcdn.net/v2/jpg/01/42/30/96/1000_F_142309603_Gd1gk6PYoXThgZUN5oRFZDGsD5Aid8oj.jpg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
