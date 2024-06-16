@@ -27,8 +27,11 @@ function Header() {
         <div id="names" className="text-6xl text-center -mb-32 lg:text-9xl">
           Clara & Daniel
         </div>
-        <div class="w-64 h-64 my-8 lg:w-96 lg:h-96 lg:my-0 mx-auto ">
-          <img src={SwordSVG} className="-rotate-90 w-fit h-fit" />
+        <div class="">
+          <img
+            src={SwordSVG}
+            className="-rotate-90 w-64 h-64 my-8 lg:w-96 lg:h-96 lg:my-0 mx-auto "
+          />
         </div>
         <div className="text-4xl text-center -mt-28">Temples Sugar Bush</div>
         <div className="text-4xl text-center">October 5th, 2024</div>
