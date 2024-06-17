@@ -56,6 +56,10 @@ function RSVP() {
       error = true;
       alert("Please confirm if you have dietary restrictions.");
     }
+    if (isInterestedShuttle == 0 && isAttending == "yes") {
+      error = true;
+      alert("Please confirm if you are interested in a shuttle.");
+    }
     if (restriction == 0 && isAllergic == "yes" && isAttending == "yes") {
       error = true;
       alert("Please share your dietary restrictions.");
