@@ -295,8 +295,8 @@ function RSVP() {
                 )}
               </>
             )}
-            <div id="textbox" class="flex justify-center py-5">
-              <div class="flex justify-center w-full lg:w-1/2 pt-7 h-10">
+            <div id="textbox" class="flex justify-center pt-7 py-5">
+              <div class="flex justify-center w-full lg:w-1/2 h-10">
                 <button
                   id="fullName"
                   type="button"
