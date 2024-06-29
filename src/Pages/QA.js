@@ -59,6 +59,7 @@ function QA() {
           >
             here
           </a>
+          .
         </p>
       </div>
       <div class={questionStyle}>
