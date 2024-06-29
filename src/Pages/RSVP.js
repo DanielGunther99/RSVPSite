@@ -296,11 +296,11 @@ function RSVP() {
               </>
             )}
             <div id="textbox" class="flex justify-center py-5">
-              <div class="flex justify-center w-full lg:w-1/2 h-10">
+              <div class="flex justify-center w-full lg:w-1/2 pt-7 h-10">
                 <button
                   id="fullName"
                   type="button"
-                  class="w-full mx-5 lg:w-1/4 h-full rounded-full mt-7 border border-gray-300 text-gray-300"
+                  class="w-full mx-5 lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                   onClick={() => {
                     validateAndSubmit();
                   }}
