@@ -218,9 +218,20 @@ function RSVP() {
                       class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                     >
                       <option value="">Select...</option>
-                      <option value="steak">Steak</option>
-                      <option value="chicken">Chicken</option>
-                      <option value="vegetarian">Vegetarian</option>
+                      <option value="steak">
+                        Grilled Striploin Steak - topped with fresh chimichurri
+                        sauce or herbed
+                      </option>
+                      <option value="vegetarian">
+                        Grilled Vegetable Tower - Marinated, grilled portobello
+                        mushroom, zucchini, red onion ad roasted red pepper
+                        topped with basil pesto and goat cheese, drizzled with
+                        balsamic glaze
+                      </option>
+                      <option value="kidsmeal">
+                        (12 or under only) Chicken Fingers - Made in house,
+                        served with kettle chips, fresh veggies & dip
+                      </option>
                     </select>
                   </div>
                 </div>
@@ -230,7 +241,7 @@ function RSVP() {
                       class="text-gray-300 px-5 text-xl"
                       htmlFor="isIntrestedShuttleDropdown"
                     >
-                      Would you be interested in a shuttle?
+                      Would you be interested in a shuttle to/from the venue?
                     </label>
                     <select
                       id="isIntrestedShuttleDropdown"
