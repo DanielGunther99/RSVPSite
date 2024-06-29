@@ -52,8 +52,11 @@ function QA() {
           class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400 pl-5"
         >
           The dress code will be Cocktail attire. For a guide to cocktail attire
-          click
-          <a href="https://www.theknot.com/content/cocktail-wedding-attire">
+          click&nbsp;
+          <a
+            class="text-[#D3AF5E]"
+            href="https://www.theknot.com/content/cocktail-wedding-attire"
+          >
             here
           </a>
         </p>
