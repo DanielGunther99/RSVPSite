@@ -51,11 +51,11 @@ function QA() {
           id="textbox"
           class="mb-4 text-xl font-normal text-gray-500 dark:text-gray-400 pl-5"
         >
-          The dress code will be Cocktail attire. Cocktail wedding attire is a
-          slightly more elevated dress code than semi-formal attire but is less
-          formal than formal wedding attire (also known as black-tie optional).
-          A suit is preferable for men, while women should opt for a cocktail
-          dress or formal jumpsuit.
+          The dress code will be Cocktail attire. For a guide to cocktail attire
+          click
+          <a href="https://www.theknot.com/content/cocktail-wedding-attire">
+            here
+          </a>
         </p>
       </div>
       <div class={questionStyle}>
