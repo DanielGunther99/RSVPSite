@@ -224,7 +224,7 @@ function RSVP() {
                       </option>
                       <option value="vegetarian">
                         Grilled Vegetable Tower - Marinated, grilled portobello
-                        mushroom, zucchini, red onion ad roasted red pepper
+                        mushroom, zucchini, red onion and roasted red pepper
                         topped with basil pesto and goat cheese, drizzled with
                         balsamic glaze
                       </option>
