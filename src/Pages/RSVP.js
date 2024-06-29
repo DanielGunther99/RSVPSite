@@ -220,7 +220,7 @@ function RSVP() {
                       <option value="">Select...</option>
                       <option value="steak">
                         Grilled Striploin Steak - topped with fresh chimichurri
-                        sauce or herbed
+                        sauce or herbed butter
                       </option>
                       <option value="vegetarian">
                         Grilled Vegetable Tower - Marinated, grilled portobello
