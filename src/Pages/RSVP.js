@@ -300,7 +300,7 @@ function RSVP() {
                 <button
                   id="fullName"
                   type="button"
-                  class="w-full lg:w-1/4 h-full rounded-full pt-7 border border-gray-300 text-gray-300"
+                  class="w-full px-5 lg:w-1/4 h-full rounded-full pt-7 border border-gray-300 text-gray-300"
                   onClick={() => {
                     validateAndSubmit();
                   }}
@@ -314,7 +314,7 @@ function RSVP() {
                 <button
                   id="fullName"
                   type="button"
-                  class="w-full lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
+                  class="w-full px-5 lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                   onClick={() => navigate(ROUTES.HOME)}
                 >
                   Go Home
