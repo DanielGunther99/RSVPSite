@@ -168,7 +168,7 @@ function RSVP() {
       {isUserInvited && (
         <div class="flex items-center justify-center h-screen">
           <div class="w-full">
-            <div id="textbox" class="flex justify-center px-5 py-10">
+            <div id="textbox" class="flex justify-center pr-5 py-10">
               <div class="flex justify-center w-full lg:w-1/2 h-10">
                 <label class="text-gray-300 px-5 text-xl" htmlFor="fullName">
                   Full Name
@@ -181,7 +181,7 @@ function RSVP() {
                 ></input>
               </div>
             </div>
-            <div id="textbox" class="flex justify-center px-5 py-10">
+            <div id="textbox" class="flex justify-center pr-5 py-10">
               <div class="flex justify-center w-full lg:w-1/2 h-10">
                 <label
                   class="text-gray-300 px-5 text-xl"
@@ -203,7 +203,7 @@ function RSVP() {
             </div>
             {isAttending == "yes" && (
               <>
-                <div id="textbox" class="flex justify-center px-5 py-10">
+                <div id="textbox" class="flex justify-center pr-5 py-10">
                   <div class="flex justify-center w-full lg:w-1/2 h-10">
                     <label
                       class="text-gray-300 px-5 text-xl"
@@ -235,7 +235,7 @@ function RSVP() {
                     </select>
                   </div>
                 </div>
-                <div id="textbox" class="flex justify-center px-5 py-10">
+                <div id="textbox" class="flex justify-center pr-5 py-10">
                   <div class="flex justify-center w-full lg:w-1/2 h-10">
                     <label
                       class="text-gray-300 px-5 text-xl"
@@ -255,7 +255,7 @@ function RSVP() {
                     </select>
                   </div>
                 </div>
-                <div id="textbox" class="flex justify-center px-5 py-10">
+                <div id="textbox" class="flex justify-center pr-5 py-10">
                   <div class="flex justify-center w-full lg:w-1/2 h-10">
                     <label
                       class="text-gray-300 px-5 text-xl"
@@ -276,7 +276,7 @@ function RSVP() {
                   </div>
                 </div>
                 {isAllergic == "yes" && (
-                  <div id="textbox" class="flex justify-center px-5 py-10">
+                  <div id="textbox" class="flex justify-center pr-5 py-10">
                     <div class="flex justify-center w-full lg:w-1/2 h-10">
                       <label
                         class="text-gray-300 px-5 text-xl"
