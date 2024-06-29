@@ -176,7 +176,7 @@ function RSVP() {
                 <input
                   id="fullName"
                   type="text"
-                  class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                  class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                   onChange={handleFullNameChange}
                 ></input>
               </div>
@@ -193,7 +193,7 @@ function RSVP() {
                   id="isAttendingDropdown"
                   value={isAttending}
                   onChange={handleIsAttendingChange}
-                  class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                  class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                 >
                   <option value="">Select...</option>
                   <option value="yes">Yes</option>
@@ -215,7 +215,7 @@ function RSVP() {
                       id="mealChoiceDropdown"
                       value={mealChoice}
                       onChange={handleMealChoiceChange}
-                      class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                      class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                     >
                       <option value="">Select...</option>
                       <option value="steak">
@@ -247,7 +247,7 @@ function RSVP() {
                       id="isIntrestedShuttleDropdown"
                       value={isInterestedShuttle}
                       onChange={handleIsInterestedShuttleChange}
-                      class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                      class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                     >
                       <option value="">Select...</option>
                       <option value="yes">Yes</option>
@@ -267,7 +267,7 @@ function RSVP() {
                       id="dropdownInput"
                       value={isAllergic}
                       onChange={handleIsAllergicChange}
-                      class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                      class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                     >
                       <option value="">Select...</option>
                       <option value="yes">Yes</option>
@@ -287,7 +287,7 @@ function RSVP() {
                       <input
                         id="fullName"
                         type="text"
-                        class="w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
+                        class="w-full lg:w-1/2 h-full px-6 rounded-full border border-gray-300 text-gray-300 bg-[#0a1f19]"
                         onChange={handleRestrictionChange}
                       ></input>
                     </div>
@@ -300,7 +300,7 @@ function RSVP() {
                 <button
                   id="fullName"
                   type="button"
-                  class="w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
+                  class="w-full lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                   onClick={() => {
                     validateAndSubmit();
                   }}
@@ -314,7 +314,7 @@ function RSVP() {
                 <button
                   id="fullName"
                   type="button"
-                  class="w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
+                  class="w-full lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                   onClick={() => navigate(ROUTES.HOME)}
                 >
                   Go Home
