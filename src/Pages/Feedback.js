@@ -18,11 +18,11 @@ function Feedback() {
             </div>
           </div>
           <div id="textbox" class="flex justify-center py-5">
-            <div class="flex justify-center w-1/2 h-10">
+            <div class="flex justify-center w-full lg:w-1/2 h-10">
               <button
                 id="fullName"
                 type="button"
-                class="w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
+                class="w-full mx-5 lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                 onClick={() => {
                   navigate(ROUTES.RSVP);
                 }}
@@ -32,11 +32,11 @@ function Feedback() {
             </div>
           </div>
           <div id="textbox" class="flex justify-center">
-            <div class="flex justify-center w-1/2 h-10">
+            <div class="flex justify-center w-full lg:w-1/2 h-10">
               <button
                 id="fullName"
                 type="button"
-                class="w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
+                class="w-full mx-5 lg:w-1/4 h-full rounded-full border border-gray-300 text-gray-300"
                 onClick={() => navigate(ROUTES.HOME)}
               >
                 Go Home
